@@ -40,11 +40,11 @@
                                     <div class="form-group">
                                         <div class="maxl">
                                             <label class="radio inline"> 
-                                                <input type="radio" name="gender1" id="gender1" value="m">
+                                                <input type="radio" name="gender" id="gender1" value="m">
                                                 <span> Male </span> 
                                             </label>
                                             <label class="radio inline"> 
-                                                <input type="radio" name="gender2" id="gender2" value="f">
+                                                <input type="radio" name="gender" id="gender2" value="f">
                                                 <span>Female </span> 
                                             </label>
                                         </div>
@@ -157,6 +157,8 @@
 
                             btnRegisterElmnt.className = "";
                             btnRegisterElmnt.className = "btnRegisterDisabled";
+
+                            hidDangerInfo();
 
                             // Disable form
                             firstNameElmnt.setAttribute("disabled", true);
