@@ -4,4 +4,4 @@
 - cd mit_frontend
 - composer install
 - php artisan serve
-- Open your browser and go to 127.0.0.1:8000
+- Open your browser and go to http://127.0.0.1:8000
