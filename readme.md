@@ -7,3 +7,6 @@
 - php artisan key:generate
 - php artisan serve
 - Open your browser and go to http://127.0.0.1:8000
+
+## Unit Tests
+vendor/bin/phpunit test/Unit/UserTest.php
